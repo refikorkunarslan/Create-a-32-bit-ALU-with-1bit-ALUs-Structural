@@ -1,0 +1,156 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do orkun_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/13.1/zhadi {C:/altera/13.1/zhadi/alu1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu1
+# 
+# Top level modules:
+# 	alu1
+# vlog -vlog01compat -work work +incdir+C:/altera/13.1/zhadi {C:/altera/13.1/zhadi/mux1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux1
+# 
+# Top level modules:
+# 	mux1
+# vlog -vlog01compat -work work +incdir+C:/altera/13.1/zhadi {C:/altera/13.1/zhadi/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module orkun
+# 
+# Top level modules:
+# 	orkun
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/13.1/zhadi/simulation/modelsim {C:/altera/13.1/zhadi/simulation/modelsim/tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb 
+# Loading work.tb
+# Loading work.orkun
+# Loading work.alu1
+# Loading work.mux1
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(21): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a1
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(22): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a2
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(23): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a3
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(24): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a4
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(25): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a5
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(26): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a6
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(27): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a7
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(28): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a8
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(29): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a9
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(30): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a10
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(31): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a11
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(32): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a12
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(33): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a13
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(34): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a14
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(35): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a15
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(36): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a16
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(37): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a17
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(38): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a18
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a19
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(40): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a20
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(41): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a21
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(42): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a22
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(43): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a23
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(44): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a24
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(45): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a25
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a26
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(47): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a27
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(48): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a28
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(49): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a29
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a30
+# ** Warning: (vsim-3015) C:/altera/13.1/zhadi/ALU.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'less'. The port definition is at: C:/altera/13.1/zhadi/alu1.v(2).
+# 
+#         Region: /tb/DUT/a31
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                  100 test case failed
+#                  200 test case failed
+#                  300 test case failed
+#                  400 test case failed
+#                  500 test case failed
+#                  600 test case failed
+#                  700 test case failed
+#                  800 test case failed
+#                  900 test case failed
+# Break in Module tb at C:/altera/13.1/zhadi/simulation/modelsim/tb.v line 75
+# Simulation Breakpoint: Break in Module tb at C:/altera/13.1/zhadi/simulation/modelsim/tb.v line 75
+# MACRO ./orkun_run_msim_rtl_verilog.do PAUSED at line 19

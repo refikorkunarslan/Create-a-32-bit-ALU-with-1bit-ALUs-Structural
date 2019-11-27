@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\zhadi\simulation\modelsim
+valu1
+IGlT?7kGPH5c2O6^V6L2Ah1
+V6mm<B91:SO?Vf8gk4nZf`0
+Z1 dC:\altera\13.1\zhadi\simulation\modelsim
+w1573957498
+8C:/altera/13.1/zhadi/alu1.v
+FC:/altera/13.1/zhadi/alu1.v
+L0 2
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/altera/13.1/zhadi -O0
+!i10b 1
+!s100 KZo6ABh<kP]Y1AC?^c3cE2
+!s85 0
+!s108 1574021147.250000
+!s107 C:/altera/13.1/zhadi/alu1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.1/zhadi|C:/altera/13.1/zhadi/alu1.v|
+!s101 -O0
+vmux1
+Icn152YeflK7I0`<6=gdIC2
+VlI;8Gh@^<1;8U8X<:fdS73
+R1
+w1573923261
+8C:/altera/13.1/zhadi/mux1.v
+FC:/altera/13.1/zhadi/mux1.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 TczBdLj:BE3mkhZhJk]GP3
+!s85 0
+!s108 1574021147.432000
+!s107 C:/altera/13.1/zhadi/mux1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.1/zhadi|C:/altera/13.1/zhadi/mux1.v|
+!s101 -O0
+vorkun
+I>zhOzJU55IJl<zmCm@j:W2
+VQ9ZhJdO47YC3[BmK_GYeH0
+R1
+w1574013710
+8C:/altera/13.1/zhadi/ALU.v
+FC:/altera/13.1/zhadi/ALU.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 _UzTFV>daD<koIDLA2b`00
+!s85 0
+!s108 1574021147.550000
+!s107 C:/altera/13.1/zhadi/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.1/zhadi|C:/altera/13.1/zhadi/ALU.v|
+!s101 -O0
+vtb
+!i10b 1
+!s100 RT]CC6Dc7QE9F>WezXe=G0
+IgEnQ`WRRXS;60SF1<KHTf0
+VV@Xn<HnSRM[I5c1?BH]3a3
+R1
+w1574021131
+8C:/altera/13.1/zhadi/simulation/modelsim/tb.v
+FC:/altera/13.1/zhadi/simulation/modelsim/tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1574021147.675000
+!s107 C:/altera/13.1/zhadi/simulation/modelsim/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.1/zhadi/simulation/modelsim|C:/altera/13.1/zhadi/simulation/modelsim/tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/altera/13.1/zhadi/simulation/modelsim -O0

@@ -1,0 +1,75 @@
+
+`timescale 1ns / 1ns
+module tb  ; 
+ 
+  wire  [30:0]  dsa   ; 
+  wire  [31:0]  asd   ; 
+  wire    overflow   ; 
+  wire  [31:0]  out   ; 
+  wire    zero   ; 
+  reg  [31:0]  a   ; 
+  reg  [31:0]  b   ; 
+  wire    slt   ; 
+  reg  [2:0]  op   ; 
+  wire    cout   ; 
+  orkun  
+   DUT  ( 
+       .dsa (dsa ) ,
+      .asd (asd ) ,
+      .overflow (overflow ) ,
+      .out (out ) ,
+      .zero (zero ) ,
+      .a (a ) ,
+      .b (b ) ,
+      .slt (slt ) ,
+      .op (op ) ,
+      .cout (cout ) ); 
+
+
+
+// "Constant Pattern"
+// Start Time = 0 ns, End Time = 1 us, Period = 0 ns
+  initial
+  begin
+	  a  = 32'b00000000000000000000000101010101  ;
+	 # 1000 ;
+// dumped values till 1 us
+  end
+
+
+// "Constant Pattern"
+// Start Time = 0 ns, End Time = 1 us, Period = 0 ns
+  initial
+  begin
+	  b  = 32'b00000000000000000000110111011001  ;
+	 # 1000 ;
+// dumped values till 1 us
+  end
+
+
+// "Constant Pattern"
+// Start Time = 0 ns, End Time = 1 us, Period = 0 ns
+  initial
+  begin
+	  op  = 3'b000  ;
+	 # 1000 ;
+// dumped values till 1 us
+  end
+
+
+// "Clock Pattern" : dutyCycle = 50
+// Start Time = 0 ns, End Time = 1 us, Period = 100 ns
+  initial
+  begin
+   repeat(10)
+   begin
+	   if (slt  != (1'b1  )) $display($time, " test case failed");
+	  #50  if (slt  != (1'b0  )) $display($time, " test case failed");
+	  #50 ;
+// 1 us, repeat pattern in loop.
+   end
+  end
+
+  initial
+	#2000 $stop;
+endmodule
